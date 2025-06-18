@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Vinculación OPS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <img src="logo_umng.png" alt="Logo UMNG" class="logo">
+  <h1>Universidad Militar Nueva Granada</h1>
+  <h2>Formulario Vinculación OPS</h2>
+</div>
+
+<p class="intro">Este formulario permite verificar los requisitos previos y recopilar la información necesaria para realizar una solicitud de vinculación mediante Orden de Prestación de Servicios (OPS), en cumplimiento de la Resolución 1209 de 2024.</p>
+
+<form>
+  <div class="form-section">
+    <h3>Sección 1: Información del Docente Investigador</h3>
+    <label>Nombre completo del docente investigador *</label>
+    <input type="text" required>
+    <label>Correo institucional del docente investigador *</label>
+    <input type="email" required>
+    <label>Tipo de prestación de servicio *</label>
+    <input type="text" required>
+    <label>Sede *</label>
+    <input type="text" required>
+    <label>Facultad *</label>
+    <input type="text" required>
+    <label>Programa *</label>
+    <input type="text" required>
+    <label>Destino Presupuestal *</label>
+    <input type="text" required>
+    <label>Cuenta Presupuestal *</label>
+    <input type="text" required>
+    <label>Plan de Acción (PF/PI) *</label>
+    <input type="text" required>
+    <label>Código DANE *</label>
+    <input type="text" required>
+    <label>Recurso *</label>
+    <input type="text" required>
+  </div>
+
+  <div class="form-section">
+    <h3>Sección 2: Datos del Joven o Asistente Investigador</h3>
+    <label>Nombre completo del joven o asistente investigador *</label>
+    <input type="text" required>
+    <label>Número de documento de identidad *</label>
+    <input type="text" required>
+    <label>Correo electrónico *</label>
+    <input type="email" required>
+    <label>Si seleccionó la opción “Asistente de Investigación”, por favor indique el nivel académico actual del joven investigador</label>
+    <input type="text">
+  </div>
+
+  <div class="form-section">
+    <h3>Sección 3: Información del Contrato</h3>
+    <label>Fecha propuesta de inicio del contrato *</label>
+    <input type="date" required>
+    <label>Fecha propuesta de finalización del contrato *</label>
+    <input type="date" required>
+    <label>Monto mensual solicitado para la contratación *</label>
+    <input type="number" required>
+  </div>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
